@@ -14,7 +14,7 @@ pipeline {
           }
           stage ('docker build image') {
              steps {
-                 sh '/usr/bin/docker image build -t shrijeet99/mynginx .'
+                 sh '/usr/bin/docker image build -t shrijeet99/resume .'
               }
           }
           stage ('docker push image') {
